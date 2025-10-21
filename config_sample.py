@@ -150,7 +150,7 @@ USENET_SERVERS = [
 ]
 
 # Update
-UPSTREAM_REPO = ""
+UPSTREAM_REPO = "https://github.com/SilentDemonSD/WZML-X"
 UPSTREAM_BRANCH = "wzv3"
 UPDATE_PKGS = True
 
