@@ -44,7 +44,7 @@ DISABLE_FF_MODE = False
 
 # Telegraph
 AUTHOR_NAME = "HunkSD°"
-AUTHOR_URL = "t.me/hunkSD1996"
+AUTHOR_URL = "https://t.me/HunkSD007"
 
 # Task Limits
 DIRECT_LIMIT = 0
