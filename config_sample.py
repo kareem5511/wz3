@@ -3,7 +3,7 @@ BOT_TOKEN = "8458271841:AAHQsOAVy3BrqxcUhS6pmiqBfUxgWBFUTkw"
 OWNER_ID = 8240404307
 TELEGRAM_API = 23093953
 TELEGRAM_HASH = "db448c6069e695c771f74ee3a489c0f7"
-DATABASE_URL = "mongodb+srv://afreentakat:gf6itPMXsfGFsQbK@cluster0.ltdgtgn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DATABASE_URL = "mongodb+srv://afreentakat:qvp8qMVVHIrLdxbT@cluster0.szu3krm.mongodb.net/?appName=Cluster0"
 
 # OPTIONAL CONFIG
 DEFAULT_LANG = "en"
@@ -16,10 +16,10 @@ AUTHORIZED_CHATS = ""
 SUDO_USERS = ""
 STATUS_LIMIT = 10
 DEFAULT_UPLOAD = "rc"
-STATUS_UPDATE_INTERVAL = 15
+STATUS_UPDATE_INTERVAL = 5
 FILELION_API = ""
 STREAMWISH_API = ""
-EXCLUDED_EXTENSIONS = ""
+EXCLUDED_EXTENSIONS = "jpg png txt jpeg"
 INCOMPLETE_TASK_NOTIFIER = False
 YT_DLP_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
@@ -87,7 +87,7 @@ IMDB_TEMPLATE = """<b>Title: </b> {title} [{year}]
 FORCE_SUB_IDS = ""
 MEDIA_STORE = True
 DELETE_LINKS = False
-CLEAN_LOG_MSG = False
+CLEAN_LOG_MSG = True
 
 # Limiters
 BOT_MAX_TASKS = 0
@@ -124,8 +124,8 @@ RCLONE_SERVE_USER = ""
 RCLONE_SERVE_PASS = ""
 
 # JDownloader
-JD_EMAIL = "syedkareem9075@gmail.com"
-JD_PASS = "Kareem5511"
+JD_EMAIL = ""
+JD_PASS = ""
 
 # Sabnzbd
 USENET_SERVERS = [
@@ -158,7 +158,7 @@ UPDATE_PKGS = True
 LEECH_SPLIT_SIZE = 0
 AS_DOCUMENT = False
 EQUAL_SPLITS = False
-MEDIA_GROUP = False
+MEDIA_GROUP = True
 USER_TRANSMISSION = True
 HYBRID_LEECH = True
 LEECH_PREFIX = ""
